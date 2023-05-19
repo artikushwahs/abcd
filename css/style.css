@@ -1,0 +1,502 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+
+
+}
+
+.main-header {
+    width: 100%;
+    display: flex;
+    background-color: #0f3cc9;
+    padding: 20px;
+
+
+}
+
+.logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #0a2885;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 7px;
+    color: white;
+}
+
+
+.menu {
+    float: left;
+    padding-top: 10px;
+}
+
+.menu ul {
+    display: inline-block;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-left: 40px;
+
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sarch {
+    float: left;
+    background: #0a2885;
+    padding: 10px 46px;
+    border-radius: 25px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.sarch input[type="text"] {
+    float: right;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.sarch i.fa.fa-search {
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    color: white;
+}
+
+.user {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 7px;
+    color: #0a2885;
+    margin-left: 15px;
+}
+
+.bar {
+    display: none;
+    float: left;
+    font-size: 40px;
+    margin-right: 19px;
+    color: white;
+    position: relative;
+}
+
+.menu-bar {
+    position: absolute;
+    top: 70px;
+    left: -542px;
+    background: red;
+    width: 500px;
+    height: 5;
+    z-index: 99;
+    padding: 20px;
+    transition: 0.8s;
+}
+
+.menu-bar li {
+    list-style: none;
+    padding-bottom: 21px;
+    border-bottom: 1px solid;
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    color: #111010;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+i.fa.fa-times {
+    
+    display: none;
+}
+
+
+.banner{background-image: url("../img/brian-suh-a4GET0s82rI-unsplash.jpg");
+       height: 500px;
+       width: 100%;
+       float: left;
+       background-repeat: no-repeat;
+       background-size: cover;
+
+
+
+}
+
+.slik .slick-dots li button:before{font-size: 55px;}
+
+.slik .slick-prev {
+   
+    display: none;
+}
+
+.slik .slick-next {
+    display: none;
+}
+
+.text {
+    padding-top: 30px;
+    width: 100% !important;
+    height: 500px !important;
+}
+
+.text h2 {
+    color: white;
+    font-size: 66px;
+    text-transform: capitalize;
+    max-width: 485px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.text p {
+    color: white;
+    font-size: 26px;
+    max-width: 543px;
+    padding-bottom: 50px;
+}
+
+.text a {
+    padding: 10px 32px;
+    background: #0f3cc9;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.slik{width: 100%;
+    float:left ;
+
+}
+
+.text-center{width: 100%;
+            float: left;
+            text-align: center;
+            margin-top: 50px;
+
+
+}
+
+.text-center h4{font-size: 4rem;
+                font-weight: 900;
+                font-family: JioType,helvetica,arial,sans-serif;
+                letter-spacing: -1.91px;
+
+
+
+
+}
+
+.text-center h3{font-size: 1.5rem;
+    font-weight: 700;
+    font-family: JioType,helvetica,arial,sans-serif;
+    letter-spacing: -.12px;
+    line-height: 1.3333333333;
+    color: rgb(0 0 0 / 65%);
+}
+
+
+.box-big{width: 100%;
+        float: left;
+        margin-top: 50px;
+
+
+}
+
+.text-box {
+    padding: 10px;
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+.box-1{width: 33%;
+       float: left;
+       border-radius: 25px;
+       box-shadow: 0 0 10px #ddd;
+       background-color: #ffffff;
+       height: auto;
+       margin: 10px;
+
+
+}
+
+.box-img {
+    width: 381px;
+    float: left;
+    height: 250px;
+}
+.box-img img{width: 100%;
+    height: 250px;
+    border-radius: 25px;
+
+
+}
+
+.box-flex{width: 100%;
+        display: flex;
+        margin-left: -10px;
+        margin-right: -10px;
+
+
+}
+
+.text-box {
+    padding: 10px;
+    width: 100%;
+    float: left;
+    padding-bottom: 23px;
+}
+
+
+.j-text-heading-xs{font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 1.5rem;
+    letter-spacing: -.72px;
+    line-height: 1.1666666667;
+    padding-bottom: 10px;
+}
+
+.j-contentBlock{font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    padding-bottom: 40px;
+    line-height: 1.5;}
+
+
+    .box-1 button {
+        border: none;
+        background: transparent;
+        /* padding: 10px 10px; */
+    }
+
+    .box-1 button a {
+        border: 1px solid #a79e9e66;
+        padding: 10px 18px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+
+    
+    .buten {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: 48px;
+    }
+
+    .buten a {
+        padding: 16px 33px;
+        border: 1px solid #80808075;
+        border-radius: 25px;
+        font-size: 18px;
+        font-weight: 900;
+        text-decoration: none;
+        color: #0a2885;
+    }
+
+    .box-jio {
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+
+    }
+
+    .jio-ex {
+        width: 100%;
+        float: left;
+        background: #000093;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+
+    .bo-1 {
+        width: 50%;
+        float: left;
+        height: 441px;
+    }
+
+    .bo-2 img{width: 100%;
+             height: auto;
+    
+    
+    }
+
+    .bo-2{width: 50%;
+        float: right;
+        height: 441px;
+    
+    }
+
+    .jio-4{font-size: 4rem;
+           letter-spacing: -1.92px;
+           text-decoration: none;
+           font-weight: 900;
+           color: #ffffff;
+
+        
+    
+    
+    }
+
+    .p-d {
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: JioType,helvetica,arial,sans-serif;
+        letter-spacing: -1.12px;
+        line-height: 1.3333333333;
+        color: white;
+        padding: 10px;
+        padding-bottom: 40px;
+
+    }
+
+
+    .text-1 {
+        margin-top: 20px;
+        padding: 24px;
+    }
+
+    .text-1 a {
+        color: white;
+        padding: 16px 19px;
+        border: 1px solid gray;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        /* margin-top: 50px; */
+    }
+
+    .box-icon{width: 100%;
+             float: left;
+             margin-top: 50px;
+    
+    }
+
+    .flex-icon{display: flex;
+        margin-left: -10px;
+        margin-right: -10px;
+    
+    
+    
+    }
+
+    .small-icon{width: 25%;
+               float: left;
+               margin: 10px;
+    
+    
+    }
+
+    .j-contentBlock__description.j-text-body-s.j-color-primary-grey-80 {
+        color: gray;
+        max-width: 253px;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .j-contentBlock__body {
+        text-align: center;
+    }
+
+    i.fa.fa-rocket {
+        font-size: 45px;
+        padding-bottom: 10px;
+        color: #000093;
+    }
+
+    .more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .more a {
+        padding: 10px 21px;
+        border: 1px solid #dad0d08f;
+        color: #000093;
+        font-size: 18px;
+        font-weight: 900;
+        border-radius: 25px;
+        text-decoration: none;
+    }
+
+    .j-contentBlock__content {
+        width: 100%;
+        height: 150px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+     .menu{display: none;}
+     .bar{display: block;}
+
+     .main-header.arti .menu-bar{left: 0px;}
+
+     .main-header.arti .fa-times{display: block;}
+
+     .main-header.arti .fa-bars{display: none;}
+     .sarch{margin-left: 57px;}
+
+
+
+    
+  }
