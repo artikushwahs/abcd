@@ -30,7 +30,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #0a2885;
+    background: red;
     text-align: center;
     font-size: 25px;
     padding-top: 7px;
@@ -500,3 +500,4 @@ i.fa.fa-times {
 
     
   }
+  
